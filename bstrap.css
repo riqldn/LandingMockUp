@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+.form-container{
+    padding-left: 25%;
+}
+#aboutus{
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center justify;
+    line-height: 3rem;
+    text-indent: 2.5rem;
+}
+input{
+    outline: none;
+    color: red;
+    border: 1px solid white;
+    width: 30%;
+    height: auto;
+    font-size: 1.2rem;
+}
+input::placeholder{
+    color: white;
+}
+#cardimg{
+    height: 12rem;
+    border: white;
+}
+.card{
+    border: none;
+    width: 18rem;
+}
+#jumbobutton{
+    margin-top: 50px;
+}
+li:hover{
+    color: skyblue;
+}
+#jumbotxt{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+#aboutus{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+}
+.card-text{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+#card-container{
+    margin-top: 10rem;
+}
+@media (max-width:426px){
+    #jumbotxt{
+        font-size: 0.95rem;
+    }
+    #aboutus{
+        font-size: 0.9rem;
+    }
+    #aboutusrow{
+        padding: 0%;
+    }
+    #card-container{
+        padding-left: 10%;
+    }
+    #aboutus{
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center justify;
+        line-height: 2rem;
+        text-indent: 2.5rem;
+    }
+    input{
+        display: block;
+        width: 100% ;
+    }
+    .form-container{
+        padding-left: 0;
+    }
+}
+@media(max-width:320px){
+    #card-container{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .card{
+        width: 14rem;
+    }
+    #jumbobutton{
+        margin-bottom: 0;
+
+    }
+    #jumbotxt{
+        font-size: 0.8rem;
+    }
+    #aboutus{
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center justify;
+        line-height: 1.5rem;
+        text-indent: 2.5rem;
+    }
+    input{
+        display: block;
+    }
+    .form-container{
+        padding-left: 0;
+    }
+}

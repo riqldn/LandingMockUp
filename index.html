@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link rel="stylesheet" href="boot.css">
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+        <h1 class="bg-primary bg-gradient border-bottom border-2 text-align-center flex-wrap"> Bootstrap html</h1>
+
+        <div class="d-flex bg-dark justify-content-evenly flex-wrap">
+            <span class="d-inline-block bg-danger bg-gradient"></span>
+            <span class="d-inline-block bg-info bg-gradient"></span>
+            <span class="d-inline-block bg-secondary bg-gradient"></span>
+            <span class="d-inline-block bg-success bg-gradient"></span>
+        </div>
+        <hr>
+
+        <div class="user-select-all overflow-scroll"> <!--user-select-auto, user-select-none, pe-none, pe-auto, overflow-auto, overflow-hidden, overflow-scroll  width = w-25 w-50 w-75 w-100, height(if parent has a height h-25, h-auto, h-50 etc)-->
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, velit incidunt beatae consectetur at quae! Expedita quas numquam quia exercitationem ex distinctio quis et eius, quam autem veniam ipsum ullam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum porro, nisi repellendus, fugit delectus, error molestiae voluptas deserunt aspernatur animi reiciendis quo. Quia amet fuga possimus maiores veniam atque facere.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa reprehenderit porro quo voluptatum nihil earum corrupti exercitationem autem, soluta, nisi dolorum expedita? Ipsa beatae culpa expedita, ut aut maiores molestias.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum vitae dolor modi. Quisquam ullam nihil consequuntur totam numquam similique a eum voluptatum cupiditate itaque fugit dolorem, recusandae suscipit veritatis minus!
+        </div>
+
+        <div class=" x position-relative bg-warning" >
+            <span class="position-absolute top-50 start-50 translate-middle bg-transparent border rounded-circle border-3 border-info shadow"></span><!--shadow-small shadow-lg for margin mx-auto for margin auto mt-5 margin top, mb-5 bottom, ms-3 start/left me-5 end/right-->
+        </div>
+        <!--text-break text-wrap text-end text-start text-nowrap text-lowercase text-uppercase text-capitalized text  font size - fs-1 fs-2 fs-3 fs-4 fs-5 fs-6
+        fw-bold fw-bolder fw-light fw-lighter fw-normal fst-italic fst-normal  line height lh-1 lh-sm lh-base lh-lg text-decoration-underline text-decoration-none
+       
+     container, container-sm... container-xl    container-xxl col-12 -> col col-1 row   row row-cols-2 (2 columns in a row and stacks them)-->
+     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../barbican.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../css/byriq/small/DSC03794.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../css/byriq/small/kamaal.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    </body>
+</html>
